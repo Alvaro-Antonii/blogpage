@@ -1,0 +1,238 @@
+*{
+    font-family: 'Andika', sans-serif;
+    /* font-family: 'Caveat', cursive; */
+    
+}
+#primero{
+    
+    width: 100%;
+    height: 100%;
+}
+.titulo{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagenes{
+    
+    margin: 5vh 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(25vh, auto);
+}
+
+#img1{
+    
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background-image:url("./img/imagenes2.jpg");
+    
+    
+}
+#img2{
+    
+    grid-column: 2/4;
+    grid-row: 1/3;
+    background-image:url("./img/imagenes4.jpg");
+    
+}
+#img3{
+    
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-image:url("./img/imagenes3.jpg");
+    
+}
+#img4{
+    
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-image:url("./img/images1.jpg");
+   
+}
+#img5{
+    
+    grid-column: 3/4;
+    grid-row: 3/4;
+    background-image:url("./img/imagenes5.jpg");
+    
+}
+.opcion{
+    margin: 2px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h5{
+    background-color:rgba(229, 226, 226, 0.955);
+    width: auto;
+    height: auto;
+}
+/*Segunda sección*/
+.info1{
+    width: 100%;
+    height: 700px;
+    background-color: #E7DFD8;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(25vh, auto);
+}
+
+.sobremi{
+    grid-column: 1/3;
+    
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+}
+
+.acerca{
+    margin-top: 10vh;
+    order: -1;
+    font-family: 'Caveat', cursive;
+}
+.descrip{
+    margin-top: 10vh;
+    font-family: 'Caveat', cursive;
+    font-size:x-large
+}
+
+
+.fotomia{
+    grid-column: 3/5;
+    
+    overflow: hidden;
+    position: relative;
+}
+.contenedor-imagen{
+    position: absolute;
+    width: 85%;
+    height: 100%;
+    top: -25%;
+    right: -20%;
+    transform: rotateZ(-14deg);
+    border-radius: 0 0 0 3em;
+    box-shadow: 0 0 0 2em #edfdfd;
+    background-image: 
+      linear-gradient(
+      to bottom,
+      #39fee0,
+      #51d7f9
+    );
+  }
+  
+  .media_img{
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 0 2em;
+    background: white;
+    top: -2em;
+    left: 2em;
+  } 
+  
+  .media_img::before{
+    content: '';
+    position: absolute;
+    display: block;
+    transform: rotateZ(14deg);
+    width: 120%;
+    height: 120%;
+    top: 10%;
+    left: -10%;
+    background-image: url('./img/turismo.jpg');
+    background-position: center right;
+    background-size: cover;
+  }
+
+  /*Tercera seccion*/
+
+  .info2{
+    width: 100%;
+    height: 700px;
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(50%, auto);
+  }
+  .carta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+    
+  }
+  #card1{
+    grid-column: 1/2;
+    background-color: white;
+  }
+  #card2{
+    grid-column: 2/4;
+    
+    background-image: url("./img/pizza2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #card3{
+    grid-column: 4/5;
+    
+    background-image: url("./img/pizza3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #card4{
+    grid-column: 1/2;
+    
+    background-image: url("./img/pizza.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  #card5{
+    grid-column: 2/5;
+    background-color: white;
+    padding: 10vh;
+  }
+ 
+  .card{
+    margin-left: 10vh;
+  }
+  
+  /*Seccion 4*/
+
+  .info3{
+    width: 100%;
+    height: auto;
+    padding: 8vh;
+    background-color: #E7DFD8;
+    float: left;
+  }
+
+  .polaroid {
+    background-color:white;
+    margin: 8px 0;
+    padding:10px 10px 50px 10px;
+    border:1px solid #BFBFBF;
+    box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+    width: 400px;
+    height: 250px;
+}
+
+/* .RotarIzq {
+  transform:rotate(10deg);
+  -ms-transform:rotate(10deg); 
+  -webkit-transform:rotate(10deg);
+  -moz-transform:rotate(10deg); 
+} */
+
